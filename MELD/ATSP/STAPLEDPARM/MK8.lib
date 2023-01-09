@@ -1,0 +1,153 @@
+!!index array str
+ "MK8"
+!entry.MK8.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "C" "c" 0 1 131072 1 6 0.636100
+ "N" "n" 0 1 131072 2 7 -0.524400
+ "O" "o" 0 1 131072 3 8 -0.622100
+ "CA" "c3" 0 1 131072 4 6 0.069400
+ "CB" "c3" 0 1 131072 5 6 -0.079400
+ "CD" "c3" 0 1 131072 6 6 -0.052400
+ "CE" "c2" 0 1 131072 7 6 -0.170000
+ "CG" "c3" 0 1 131072 8 6 -0.073400
+ "CB1" "c3" 0 1 131072 9 6 -0.112100
+ "H" "hn" 0 1 131072 10 1 0.316500
+ "HB2" "hc" 0 1 131072 11 1 0.057200
+ "HB3" "hc" 0 1 131072 12 1 0.057200
+ "HD2" "hc" 0 1 131072 13 1 0.052200
+ "HD3" "hc" 0 1 131072 14 1 0.052200
+ "HE" "ha" 0 1 131072 15 1 0.118000
+ "HG2" "hc" 0 1 131072 16 1 0.051700
+ "HG3" "hc" 0 1 131072 17 1 0.051700
+ "HB11" "hc" 0 1 131072 18 1 0.056700
+ "HB12" "hc" 0 1 131072 19 1 0.056700
+ "HB13" "hc" 0 1 131072 20 1 0.056700
+!entry.MK8.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "C" "c" 0 -1 0.0
+ "N" "n" 0 -1 0.0
+ "O" "o" 0 -1 0.0
+ "CA" "c3" 0 -1 0.0
+ "CB" "c3" 0 -1 0.0
+ "CD" "c3" 0 -1 0.0
+ "CE" "c2" 0 -1 0.0
+ "CG" "c3" 0 -1 0.0
+ "CB1" "c3" 0 -1 0.0
+ "H" "hn" 0 -1 0.0
+ "HB2" "hc" 0 -1 0.0
+ "HB3" "hc" 0 -1 0.0
+ "HD2" "hc" 0 -1 0.0
+ "HD3" "hc" 0 -1 0.0
+ "HE" "ha" 0 -1 0.0
+ "HG2" "hc" 0 -1 0.0
+ "HG3" "hc" 0 -1 0.0
+ "HB11" "hc" 0 -1 0.0
+ "HB12" "hc" 0 -1 0.0
+ "HB13" "hc" 0 -1 0.0
+!entry.MK8.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.MK8.unit.childsequence single int
+ 2
+!entry.MK8.unit.connect array int
+ 2
+ 1
+!entry.MK8.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 3 1
+ 1 4 1
+ 2 4 1
+ 2 10 1
+ 4 5 1
+ 4 9 1
+ 5 8 1
+ 5 11 1
+ 5 12 1
+ 6 7 1
+ 6 8 1
+ 6 13 1
+ 6 14 1
+ 7 15 1
+ 8 16 1
+ 8 17 1
+ 9 18 1
+ 9 19 1
+ 9 20 1
+!entry.MK8.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+ "R" 1 "A" 18
+ "R" 1 "A" 19
+ "R" 1 "A" 20
+!entry.MK8.unit.name single str
+ "MK8"
+!entry.MK8.unit.positions table  dbl x  dbl y  dbl z
+ 11.002000 14.104000 -16.689000
+ 11.059000 16.396000 -15.816000
+ 11.633000 13.051000 -16.585000
+ 10.776000 15.005000 -15.478000
+ 9.291000 15.019000 -15.109000
+ 7.218000 13.700000 -14.530000
+ 6.784000 14.652000 -13.447000
+ 8.750000 13.660000 -14.643000
+ 11.658000 14.555000 -14.314000
+ 10.323000 17.081000 -15.727000
+ 8.723000 15.331000 -15.985000
+ 9.135000 15.748000 -14.314000
+ 6.798000 14.027000 -15.481000
+ 6.849000 12.701000 -14.299000
+ 7.175000 14.517000 -12.449000
+ 9.175000 13.420000 -13.668000
+ 9.038000 12.892000 -15.361000
+ 12.703000 14.562000 -14.625000
+ 11.375000 13.546000 -14.013000
+ 11.525000 15.236000 -13.473000
+!entry.MK8.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 2 1 0 0 0 0
+!entry.MK8.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "MK8" 1 21 1 "?" 0
+!entry.MK8.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.MK8.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.MK8.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

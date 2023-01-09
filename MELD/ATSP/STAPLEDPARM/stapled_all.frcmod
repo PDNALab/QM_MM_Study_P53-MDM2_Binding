@@ -1,0 +1,45 @@
+remark goes here
+MASS
+
+BOND
+c -N   490.0    1.335       JCC,7,(1986),230; AA
+C -n   490.0    1.335       JCC,7,(1986),230; AA
+
+ANGLE
+n -C -O     80.0      122.90    AA general
+N -c -o     80.0      122.90    AA general
+C -n -c3    50.0      121.90    AA general
+C -n -hn    50.0      120.00    AA general, gln, asn,changed based on NMA nmodes
+CX-C -n     70.0      116.60    AA general  (was CT-C-N)
+c3-c -N     70.0      116.60    AA general  (was CT-C-N)
+c -N -H     50.0      120.00    AA general, gln, asn,changed based on NMA nmodes
+c -N -CX    50.0      121.90    AA general  (was C-N-CT)
+
+DIHE
+c3-c3-cy-cy   1    0.156         0.000           3.000      same as X -c3-c3-X 
+c3-c3-cy-hc   1    0.160         0.000           3.000      same as hc-c3-c3-c3
+cy-cy-c3-hc   1    0.156         0.000           3.000      same as X -c3-c3-X 
+hc-c3-cy-hc   1    0.150         0.000           3.000      same as hc-c3-c3-hc
+c3-n -C -O    1    2.500       180.000           2.000      same as X -c -n -X 
+c3-n -C -CX   1    2.500       180.000           2.000      same as X -c -n -X 
+c3-c3-cy-cy   1    0.156         0.000           3.000      same as X -c3-c3-X 
+c3-c3-cy-hc   1    0.160         0.000           3.000      same as hc-c3-c3-c3
+c3-c -N -H    1    2.500       180.000           2.000      same as X -c -n -X 
+c3-c -N -CX   1    2.500       180.000           2.000      same as X -c -n -X 
+o -c -N -H    1    2.500       180.000           2.000      same as X -c -n -X 
+o -c -N -CX   1    2.500       180.000           2.000      same as X -c -n -X 
+cy-cy-c3-hc   1    0.156         0.000           3.000      same as X -c3-c3-X 
+hc-c3-cy-hc   1    0.150         0.000           3.000      same as hc-c3-c3-hc
+hn-n -C -O    1    2.500       180.000           2.000      same as X -c -n -X 
+hn-n -C -CX   1    2.500       180.000           2.000      same as X -c -n -X 
+
+IMPROPER
+c3-n -c -o         10.5          180.0         2.0          General improper torsional angle (2 general atom types)
+C -c3-n -hn         1.1          180.0         2.0          General improper torsional angle (2 general atom types)
+N -c3-c -o         10.5          180.0         2.0          General improper torsional angle (2 general atom types)
+CX-H -N -c          1.1          180.0         2.0          Using default value
+CX-O -C -n          1.1          180.0         2.0          Using default value
+c2-c3-c2-ha         1.1          180.0         2.0          Using default value
+
+NONBON
+

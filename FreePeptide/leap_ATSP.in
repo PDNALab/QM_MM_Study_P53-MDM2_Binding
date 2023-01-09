@@ -1,0 +1,16 @@
+set default PBradii mbondi3
+source leaprc.protein.ff14SBonlysc
+source leaprc.gaff
+loadAmberParams /blue/alberto.perezant/alberto.perezant/PeptideBinding/HydrophobicBinding/STAPLEDPARM/stapled_all.frcmod
+loadoff /blue/alberto.perezant/alberto.perezant/PeptideBinding/HydrophobicBinding/STAPLEDPARM/0EH.lib
+loadoff /blue/alberto.perezant/alberto.perezant/PeptideBinding/HydrophobicBinding/STAPLEDPARM/MK8.lib
+loadoff /blue/alberto.perezant/alberto.perezant/PeptideBinding/HydrophobicBinding/STAPLEDPARM/2JH.lib
+mol_0 = loadPdb /blue/alberto.perezant/lijunlang/meld_peptide_binding/ATSP7041/template.pdb
+bond mol_0.90.CAT mol_0.97.CE "D"
+
+translate mol_0 { 0.0 0.0 0.0 }
+sys = combine { mol_0  }
+check sys
+saveAmberParm sys system.top system.mdcrd
+quit
+

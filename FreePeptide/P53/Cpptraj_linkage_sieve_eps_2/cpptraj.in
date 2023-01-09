@@ -1,0 +1,22 @@
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_001.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_002.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_003.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_004.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_005.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_006.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_007.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_008.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_009.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_010.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_011.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_012.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_013.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_014.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_015.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_016.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_017.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_018.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_019.netcdf
+trajin /blue/alberto.perezant/lijunlang/p53/p53/trajectory_020.netcdf
+cluster hieragglo epsilon 1.5 linkage rms @CA,CB  sieve 20 summary summary singlerepout representative repout unique repfmt pdb clusterout clusttraj avgout avg avgfmt pdb out frame_vs_cluster.txt
+go

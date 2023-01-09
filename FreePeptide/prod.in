@@ -1,0 +1,19 @@
+Stage 2 Production
+&cntrl
+ imin = 0, ! turn-off minimization
+ irest = 0, ! using previous run information to restart simulation
+ ntx = 1,  ! read coordinate 
+ nstlim=25000000, dt=0.004, ! 4fs, total 100ns
+ cut=999., 
+ ntc = 2,   ! all bonds involving hydrogen are constrained
+ ntf = 2,    ! not all types of forces are evaluated
+ ntt= 3,    ! langevin T coupling method
+ tempi = 300, ! initial T
+ temp0 = 300,! Final T
+ gamma_ln = 1,
+ igb = 8,!GBneck2 model for implicit solvent
+ ntpr = 12500, ! to output file
+ ntwx = 12500, ! to trajectory file
+ ntwr = 12500, ! to restart file
+ nscm = 12500
+/

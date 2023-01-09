@@ -1,0 +1,7 @@
+set default PBradii mbondi3
+source /home/alberto.perezant/Source/amber/dat/leap/cmd/leaprc.protein.ff14SBonlysc
+pdiq  = sequence { NGLU THR PHE GLU HIS TRP TRP SER GLN LEU LEU CSER }
+saveoff pdiq pdiq.lib
+savepdb pdiq pdiq.pdb
+saveamberparm pdiq pdiq.prmtop pdiq.rst7
+quit

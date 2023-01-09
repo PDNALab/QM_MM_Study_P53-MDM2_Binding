@@ -1,0 +1,5 @@
+set default PBradii mbondi3
+source /home/alberto.perezant/Source/amber/dat/leap/cmd/leaprc.protein.ff14SBonlysc
+aa = loadpdb p53.pdb
+saveamberparm aa new_p53.top new_p53.rst7
+quit

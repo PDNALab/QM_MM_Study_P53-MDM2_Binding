@@ -1,0 +1,154 @@
+!!index array str
+ "2JH"
+!entry.2JH.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "n" 0 1 131075 1 7 -0.544900
+ "CA" "c3" 0 1 131075 2 6 0.034700
+ "CB" "c3" 0 1 131072 3 6 -0.083400
+ "C" "c" 0 1 131075 4 6 0.637100
+ "O" "o" 0 1 131075 5 8 -0.588100
+ "CG" "cy" 0 1 131072 6 6 -0.088700
+ "CD1" "cy" 0 1 131072 7 6 -0.090400
+ "CD2" "cy" 0 1 131072 8 6 -0.090400
+ "CE" "cy" 0 1 131072 9 6 -0.094400
+ "HA" "h1" 0 1 131075 10 1 0.126700
+ "HB2" "hc" 0 1 131072 11 1 0.049700
+ "HB3" "hc" 0 1 131072 12 1 0.049700
+ "HG" "hc" 0 1 131072 13 1 0.075700
+ "HD12" "hc" 0 1 131072 14 1 0.050200
+ "HD13" "hc" 0 1 131072 15 1 0.050200
+ "HD22" "hc" 0 1 131072 16 1 0.050200
+ "HD23" "hc" 0 1 131072 17 1 0.050200
+ "HE2" "hc" 0 1 131072 18 1 0.049200
+ "HE3" "hc" 0 1 131072 19 1 0.049200
+ "H" "hn" 0 1 131075 20 1 0.307500
+!entry.2JH.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "n" 0 -1 0.0
+ "CA" "c3" 0 -1 0.0
+ "CB" "c3" 0 -1 0.0
+ "C" "c" 0 -1 0.0
+ "O" "o" 0 -1 0.0
+ "CG" "cy" 0 -1 0.0
+ "CD1" "cy" 0 -1 0.0
+ "CD2" "cy" 0 -1 0.0
+ "CE" "cy" 0 -1 0.0
+ "HA" "h1" 0 -1 0.0
+ "HB2" "hc" 0 -1 0.0
+ "HB3" "hc" 0 -1 0.0
+ "HG" "hc" 0 -1 0.0
+ "HD12" "hc" 0 -1 0.0
+ "HD13" "hc" 0 -1 0.0
+ "HD22" "hc" 0 -1 0.0
+ "HD23" "hc" 0 -1 0.0
+ "HE2" "hc" 0 -1 0.0
+ "HE3" "hc" 0 -1 0.0
+ "H" "hn" 0 -1 0.0
+!entry.2JH.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.2JH.unit.childsequence single int
+ 2
+!entry.2JH.unit.connect array int
+ 1
+ 4
+!entry.2JH.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 20 1
+ 2 4 1
+ 2 3 1
+ 2 10 1
+ 3 6 1
+ 3 11 1
+ 3 12 1
+ 4 5 2
+ 6 7 1
+ 6 8 1
+ 6 13 1
+ 7 9 1
+ 7 14 1
+ 7 15 1
+ 8 9 1
+ 8 16 1
+ 8 17 1
+ 9 18 1
+ 9 19 1
+!entry.2JH.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+ "R" 1 "A" 18
+ "R" 1 "A" 19
+ "R" 1 "A" 20
+!entry.2JH.unit.name single str
+ "2JH"
+!entry.2JH.unit.positions table  dbl x  dbl y  dbl z
+ 11.238000 18.719000 -17.313000
+ 12.402000 18.269000 -16.580000
+ 12.563000 19.099000 -15.306000
+ 12.257000 16.788000 -16.238000
+ 13.209000 16.017000 -16.368000
+ 13.865000 18.929000 -14.523000
+ 14.123000 19.779000 -13.308000
+ 13.997000 17.659000 -13.713000
+ 14.284000 18.500000 -12.428000
+ 13.286000 18.403000 -17.203000
+ 11.742000 18.838000 -14.638000
+ 12.462000 20.151000 -15.572000
+ 14.710000 19.011000 -15.206000
+ 15.026000 20.386000 -13.376000
+ 13.251000 20.368000 -13.024000
+ 13.082000 17.068000 -13.662000
+ 14.857000 17.063000 -14.017000
+ 15.280000 18.361000 -12.007000
+ 13.497000 18.404000 -11.680000
+ 10.602000 18.045000 -17.714000
+!entry.2JH.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 1 4 0 0 0 0
+!entry.2JH.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "2JH" 1 33 1 "?" 0
+!entry.2JH.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.2JH.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.2JH.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
